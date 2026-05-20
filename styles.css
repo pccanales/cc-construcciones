@@ -1,0 +1,29 @@
+.hero-section {
+    /* Estilo que antes estaba en la etiqueta <header> */
+    background: linear-gradient(rgba(0, 85, 170, 0.9), rgba(0, 35, 75, 0.9));
+}
+
+/* Opcional: Un pequeño efecto al pasar el cursor sobre las tarjetas para mejorar la interactividad */
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/* Nuevo color para la barra de navegación */
+.bg-navy {
+    background-color: #00234b; /* Un azul marino oscuro y profesional */
+}
+
+/* Estilo para el logo en la sección principal */
+.hero-logo {
+    max-width: 250px;
+    height: auto;
+    /* Sombra sutil para mejorar el contraste del texto negro del logo sobre el fondo oscuro */
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+}
+
+/* Cambia el cursor para indicar que los elementos son clickables */
+.popover-trigger {
+    cursor: pointer;
+}
